@@ -1,6 +1,6 @@
 // Bump this whenever index.html (or the lineup data inside it) changes,
 // so returning visitors pick up the new version instead of a stale cache.
-const CACHE_NAME = 'sizigia2026-cache-v93';
+const CACHE_NAME = 'sizigia2026-cache-v94';
 // Core assets only — photos will be added as they're discovered/added.
 const ASSETS = [
   './',
@@ -126,6 +126,22 @@ self.addEventListener('activate', (event) => {
 // to whatever's cached if the network is unavailable.
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  // Calendar-reminder handoff for installed iOS PWAs: data: URI navigation
+  // is silently ignored in standalone display-mode, so index.html routes
+  // through this instead — a real same-origin response with a proper
+  // text/calendar Content-Type, which iOS reliably hands off to Calendar
+  // even without the full Safari chrome around it.
+  const url = new URL(event.request.url);
+  if (url.pathname.endsWith('/reminder.ics')) {
+    const ics = decodeURIComponent(url.searchParams.get('data') || '');
+    event.respondWith(new Response(ics, {
+      headers: {
+        'Content-Type': 'text/calendar; charset=utf-8',
+        'Content-Disposition': 'inline; filename="event.ics"'
+      }
+    }));
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
