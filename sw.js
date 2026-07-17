@@ -1,6 +1,6 @@
 // Bump this whenever index.html (or the lineup data inside it) changes,
 // so returning visitors pick up the new version instead of a stale cache.
-const CACHE_NAME = 'sizigia2026-cache-v94';
+const CACHE_NAME = 'sizigia2026-cache-v95';
 // Core assets only — photos will be added as they're discovered/added.
 const ASSETS = [
   './',
