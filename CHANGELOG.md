@@ -2,6 +2,10 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.11 — July 2026
+
+- Fixed wrong photos for Ivana, Lunatica and Deacon (an incorrect source link had pulled in the wrong person's photo).
+
 ## Version 1.6.10 — July 2026
 
 - Added SoundCloud/Instagram links for a few artists (Smkng Chkrs, Something Blue, Nixe, Sulfur).
