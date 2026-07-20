@@ -2,6 +2,10 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.12 — July 2026
+
+- Fixed 3 artist photos found to be missing or incorrect during a manual review round (Art Of Trance, Oliver Koletzki, Eitan Reiter).
+
 ## Version 1.6.11 — July 2026
 
 - Fixed wrong photos for Ivana, Lunatica and Deacon (an incorrect source link had pulled in the wrong person's photo).
