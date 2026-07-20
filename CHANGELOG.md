@@ -2,6 +2,10 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.10 — July 2026
+
+- Added SoundCloud/Instagram links for a few artists (Smkng Chkrs, Something Blue, Nixe, Sulfur).
+
 ## Version 1.6.9 — July 2026
 
 - Fixed: some devices (especially iOS) could get stuck showing an older version even after repeatedly reopening the app. Updates should now reach every device reliably.
