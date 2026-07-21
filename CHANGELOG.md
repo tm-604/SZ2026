@@ -2,6 +2,54 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.24 — July 2026
+
+- Added artist photos and bios for a few more artists, using their SoundCloud profiles.
+
+## Version 1.6.23 — July 2026
+
+- Internal update to how duo artist pages link to each other (no visible content change here yet).
+
+## Version 1.6.22 — July 2026
+
+- Added 2 more verified SoundCloud links after a large research round.
+
+## Version 1.6.21 — July 2026
+
+- Artist pages can now show Facebook, Website, Discogs and Apple Music links where available.
+
+## Version 1.6.20 — July 2026
+
+- Fixed Vallou's Instagram link after verifying it against their confirmed identity.
+
+## Version 1.6.19 — July 2026
+
+- Minor bio-source cleanup for 3 artists (no visible content change).
+
+## Version 1.6.18 — July 2026
+
+- Fixed a bug where some artists' Instagram links had been saved but never actually showed up on their page. Fixed for everyone affected.
+
+## Version 1.6.17 — July 2026
+
+- Added 13 more SoundCloud links after manual verification, including a corrected link for Jorke.
+
+## Version 1.6.16 — July 2026
+
+- Psygroo, Regan and Dickster now have their own artist info, linked from the Kulle F2F Psygroo and Regan F2F Dickster listings.
+
+## Version 1.6.15 — July 2026
+
+- Added 3 more SoundCloud links after manual verification.
+
+## Version 1.6.14 — July 2026
+
+- Added 74 missing Instagram links and 25 missing MusicBrainz identifiers that were already researched but hadn't made it into the app yet.
+
+## Version 1.6.13 — July 2026
+
+- Added 30 missing SoundCloud links that were already researched but hadn't made it into the app yet.
+
 ## Version 1.6.12 — July 2026
 
 - Fixed 3 artist photos found to be missing or incorrect during a manual review round (Art Of Trance, Oliver Koletzki, Eitan Reiter).
