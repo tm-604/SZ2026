@@ -2,6 +2,31 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.31 — July 2026
+
+- Fixed cross-festival note import silently cutting long personal notes down to 140 characters instead of the full 2000.
+
+## Version 1.6.30 — July 2026
+
+- Fixed a display-escaping gap on linked artists' info pages (names/values with special characters could render incorrectly).
+- Filled in a large batch of missing Bandcamp/YouTube/Spotify links for artists already known from other festivals.
+
+## Version 1.6.29 — July 2026
+
+- Made offline photo caching more reliable, so a single failed download during setup no longer skips caching everything else.
+
+## Version 1.6.28 — July 2026
+
+- Reduced photo file sizes app-wide for faster loading, and made sure every artist photo is now available offline once installed.
+
+## Version 1.6.27 — July 2026
+
+- Fixed the "add to home screen" reminder sometimes appearing hidden behind an open artist page instead of on top of it.
+
+## Version 1.6.26 — July 2026
+
+- Fixed 3 combined acts (Originz & Rajax, Green Nuns Of The Revolution by Dick Trevor, Etnica & Pleiadians) so all members now open their own bio page.
+
 ## Version 1.6.25 — July 2026
 
 - Added a small Om symbol at the bottom of the Settings page.
