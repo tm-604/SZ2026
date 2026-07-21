@@ -2,6 +2,10 @@
 
 What’s new in the Sizigia 2026 festival app. Newest first.
 
+## Version 1.6.25 — July 2026
+
+- Added a small Om symbol at the bottom of the Settings page.
+
 ## Version 1.6.24 — July 2026
 
 - Added artist photos and bios for a few more artists, using their SoundCloud profiles.
